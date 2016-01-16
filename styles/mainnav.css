@@ -1,0 +1,65 @@
+/* Main Navigation */
+
+#menu {width:960px; height:35px; z-index:100;font-family:arial, sans-serif; padding:0px 0px 0px 0px;   background: url("../images/nav.jpg") no-repeat;}
+#menu {width:960px; w\idth:960px; }
+#menu ul {padding:0px 0px 0px 0px; margin:0;list-style-type:none;}
+#menu ul ul {width:150px;}
+#menu li {float:left;width:150px;position:relative;}
+#menu a, #menu a:visited {display:block;font-size:12px;text-decoration:none; width:150px; height:35px; padding-top: 5px; line-height:29px; font-weight:bold; text-align:center; color:#666666}
+#menu ul ul a, #menu ul ul a:visited {color:#fff; border-bottom:1px solid #ccc; border-width:1px 0 1px 1px; font-weight:normal; text-transform:none; text-align:left;}
+#menu ul ul a.nodrop, #menu ul ul a.nodrop:visited {background:#e4e4e4 url(../images/grey-only.gif) no-repeat 150px center;}
+#menu ul ul a.drop, #menu ul ul a.drop:visited {background:#e4e4e4 url(../images/grey-arrow.gif) no-repeat 150px center;}
+#menu ul ul a.drop:hover{background:#fff url(../images/yellow-arrow.gif) no-repeat 150px center;}
+#menu ul ul a.nodrop:hover{background:#fff url(../images/white-only.gif) no-repeat 150px center;}
+#menu ul ul a:hover > a.drop {background:#fff url(../images/yellow-arrow.gif) no-repeat 150px center;}
+#menu ul ul a:hover > a.nodrop {background:#fff url(../images/white-only.gif) no-repeat 150px center;}
+#menu ul ul ul a, #menu ul ul ul a:visited {background:#fff; width:150px;}
+#menu ul ul ul a:hover {background:#fff;}
+#menu ul ul {visibility:hidden;position:absolute;height:0;top:35px;left:0; width:180px;border-top:1px solid #ccc;}
+/* another hack for IE5.5 */
+#menu ul ul {top:34px;t\op:35px;}
+#menu ul ul ul{left:170px; top:-1px; width:150px;}
+#menu ul ul ul.left {left:-150px;}
+#menu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
+#menu ul ul a, #menu ul ul a:visited {background:#e4e4e4; color:#000; height:auto; line-height:1em; padding:5px 10px; 
+width:150px;border-width:0 1px 1px 1px;}
+/* yet another hack for IE5.5 */
+#menu ul ul a, * html #menu ul ul a:visited {width:150px;w\idth:150px;}
+#menu a:hover, #menu ul ul a:hover{color:#666; background:#fff;}
+#menu :hover > a, #menu ul ul :hover > a {color:#666; background:#fff;}
+#menu :hover > a {color:#666; background-image:url(../images/main-nav-hover-bg.jpg);  background-repeat:repeat-x;}
+#menu ul ul :hover > a {color:#666; background:#fff;}
+
+#menu ul li:hover ul,
+#menu ul a:hover ul{visibility:visible; }
+#menu ul :hover ul ul{visibility:hidden;}
+#menu ul :hover ul :hover ul{ visibility:visible;}
+
+.footer_background{width:950px; height:80px; margin:0px; border:none; background:url(../images/nav.jpg) no-repeat;}
+.footer_background1{width:950px; height:80px; margin:0px; border:none; background:url(../images/nav.jpg) no-repeat;}
+.footer1 {
+	width:450px;
+	height:auto;
+	border:none;
+	font-family:arial, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	text-align:center;
+	text-decoration:none;
+	color:#000000; padding:8px 2px 0px 20px;
+}
+.footer2 {
+	width:450px;
+	height:auto;
+	border:none;
+	font-family:arial, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	text-align:center;
+	text-decoration:none;
+	color:#000000;
+	padding:8px 8px 0px 0px;
+	
+}

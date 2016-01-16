@@ -1,0 +1,117 @@
+<?php
+$dbhost = 'localhost';
+$dbusername = 'root';
+$dbuserpassword = 'chinkli';
+$default_dbname = 'rdfl_db';
+$pooling_pt_table = 'pooling_pt';
+$pooling_mem_table = 'pooling_mem';
+$rdfl_admin_table = 'rdfl_admin';
+$MYSQL_ERRORNO = '';
+$MYSQL_ERROR = '';
+
+
+function db_connect($dbname = '')
+{
+ global $dbhost, $dbusername, $dbuserpassword, $default_dbname, $MYSQL_ERRORNO, $MYSQL_ERROR;
+ $link_id = mysql_connect($dbhost, $dbusername, $dbuserpassword);
+ if(!$link_id)
+ {
+  $MYSQL_ERRORNO = 0;
+  $MYSQL_ERROR = "Connection Failed To The Host $dbhost.";
+  return 0;
+ }
+ else if(empty($dbname) && !mysql_select_db($default_dbname))
+ {
+  $MYSQL_ERRORNO = mysql_errno();
+  $MYSQL_ERROR = mysql_error();
+  return 0;
+ }
+ else if(!empty($dbname) && !mysql_select_db($dbname))
+ {
+  $MYSQL_ERRORNO = mysql_errno();
+  $MYSQL_ERROR = mysql_error();
+  return 0;
+ }
+ else return $link_id;
+}
+
+function not_mem($code)
+ {
+  global $pooling_mem_table;
+ 
+  $query = "SELECT code FROM $pooling_mem_table WHERE code = '$code'";
+  $result = mysql_query($query);
+  if(!mysql_num_rows($result))
+  {
+   return 1;
+  }
+  else
+  {
+   return 0;
+  }
+ }
+
+function sql_error()
+{
+ global $MYSQL_ERRORNO, $MYSQL_ERROR;
+ if(empty($MYSQL_ERROR))
+ {
+  $MYSQL_ERRORNO = mysql_errno();
+  $MYSQL_ERROR = mysql_error();
+ }
+ return "$MYSQL_ERRORNO: $MYSQL_ERROR";
+}
+
+function error_message($msg)
+{
+ echo "<SCRIPT>alert(\"Error: $msg\");history.go(-1);</SCRIPT>";
+ exit;
+}
+
+function enum_options($field, $link_id)
+{
+ global $pooling_pt_table;
+ $query = "SHOW COLUMNS FROM $pooling_pt_table LIKE '$field'";
+ $result = mysql_query($query, $link_id);
+ $query_data = mysql_fetch_array($result);
+ if(@eregi("('.*')", $query_data["Type"], $match))
+ {
+  $enum_str = @ereg_replace("'", "", $match[1]);
+  $enum_options = explode(',', $enum_str);
+  return $enum_options;
+ }
+ else
+ {
+  return 0;
+ }
+}
+
+function backup_db($db_name,$backfile)
+{
+
+}
+
+?>
+
+<html>
+<head>
+<script language="JavaScript" type="text/javascript">
+var newwin=null;
+function openwin(url)
+{
+ newwin=window.open("url","","height=400,width=800",resizable="no",scrollbar="no");
+ newwin.location.href=url;
+}
+function closewin()
+{
+ if(newwin)
+ {
+  newwin.close();
+  newwin=null;
+ }
+}
+
+</script>
+
+</head>
+</html>

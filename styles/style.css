@@ -1,0 +1,273 @@
+/* CSS Document */
+
+.top_btn_images{ width:304px; padding:0px 0px 0px 0px; margin:0px; border:none; background:url(../images/top_btn.png) no-repeat; height:24px;}
+.top_btn{ width:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal; text-decoration:none; color:#FFFFFF; border:none; padding-left:8px;}
+.top_btn a{ width:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal; text-decoration:none; color:#FFFFFF; padding:0px 4px 4px 6px; }
+.top_btn a:hover{ width:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal; text-decoration:none; color: #00CCFF; padding:0px 4px 4px 6px; }
+
+#middle{width:1px; height:auto; background:url(../images/middle.gif);}
+#btn{width:950px; height:30px; background:url(../images/btn.gif) no-repeat; margin:0px; border:none;}
+.btn_text{ width:auto; height:30px; margin:0px; border:none;}
+.btn_text a{font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:400;  text-decoration:none; color:#000000;padding:0px 0px 0px 0px; }
+.btn_text a:hover{font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:400; font-style:normal;text-decoration:none; color:#ffffff;padding:2px 0px 0px 0px;}
+
+#seminar_image_background{ 
+width:305px; 
+background:url('../images/seminar_back.gif') no-repeat;
+border:none; 
+background-color:#5f819f;
+}
+
+#seminar1_text{width:255px; height:35px; font-family:Arial, Helvetica, sans-serif;  font-weight:300; font-size:14px; text-decoration:none; font-style:normal; color: #ffffff; padding:6px 6px 0px 40px;}
+.seminar_text{width: auto; font-family:Arial, Helvetica, sans-serif; font-weight:300;  font-size:11px; text-align:left;  text-decoration:none; font-style:normal; color:#ffffff; padding:2px 0px 2px 0px;}
+.seminar_text a{ font-family:arial, sans-serif; font-weight:300;  font-size:12px; text-decoration:none; text-align:left; font-style:normal;
+color:#ffffff; padding:4px 8px 4px 0px;}
+.seminar_text a:hover{ font-family:arial, sans-serif; font-weight:300; font-size:12px; text-align:left;  text-decoration:none; font-style:normal;
+color: #00CCFF; padding:4px 8px 4px 0px;}
+.seminar_text1{width: auto; font-family:arial, sans-serif; font-weight:900;  font-size:11px; text-align:left;  text-decoration:none; font-style:normal; color:#370303; padding:4px 8px 4px 0px;}
+.lower_btn_img{ width:950px; height:30px; background-image:url(../images/lower-btn.gif); background-repeat:no-repeat; }
+.lower_btn1_img{ width:950px; height:30px; background-image:url(../images/lower-btn1.gif); background-repeat:no-repeat; }
+.lower_btn{ width:auto; height:auto; border:none; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; color: #ffffff;}
+.lower_btn a{ width:auto; height:auto; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; color: #FFFFFF; font-weight:600; padding:0px 12px 0px 40px; border:none;}
+.lower_btn a:hover{ width:auto; height:auto; font-weight:600; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; color: #00CCFF; padding:0px 12px 0px 40px; border:none;}
+.dyneamic_text{ width:auto; font-family:Arial, sans-serif; font-size:12px; font-style:normal; text-align:justify;
+text-decoration:none; color:#666666; padding:2px 12px 4px 10px;}
+
+.student_notice_board{ width:auto; height:40px; background: url(../images/side_btn.gif) no-repeat; border:none; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; text-align:left; padding:3px 13px 0px 13px;}
+.student_notice_board a{ width:auto; height:36px; font-family:arial, sans-serif; font-size:14px; font-style:normal; font-weight:600; text-decoration:none; text-align:left; color:#FFFFFF; padding:5px 13px 0px 13px;}
+.student_notice_board a:hover{  width:auto; height:40px; font-family:arial, sans-serif; font-size:13px; font-weight:600; font-style:normal; text-decoration:none; text-align:left; color:#FFFFFF; padding:5px 13px 0px 13px;}
+.dyneamic_text1{ width:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal; text-align:justify;
+text-decoration:none; color:#000000;}
+.dyneamic_text1 a{width:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal; text-align:justify;
+text-decoration:none; color:#000000; padding:20px 0px 20px 0px;}
+.dyneamic_text1 a:hover{width:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal; text-align:justify; text-decoration:none; color: #003366; padding:20px 0px 20px 0px;}
+.footer_background{width:950px; height:80px; margin:0px; border:none; background:url(../images/footer.gif) no-repeat;}
+.footer_background1{width:950px; height:80px; margin:0px; border:none; background:url(../images/footer1.gif) no-repeat;}
+.footer1 {
+	width:450px;
+	height:auto;
+	border:none;
+	font-family:arial, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	text-align:left;
+	text-decoration:none;
+	color:#000000; padding:8px 2px 0px 20px;
+}
+.footer2 {
+	width:450px;
+	height:auto;
+	border:none;
+	font-family:arial, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	text-align:right;
+	text-decoration:none;
+	color:#000000;
+	padding:8px 8px 0px 0px;
+	
+}
+
+.footer3{
+	width:350px; height:auto; border:none; font-family:arial, sans-serif; font-size:11px; font-style:normal; font-variant:normal;
+ text-align: center; text-decoration:none; color:#000000;}
+ .footer3 a{
+	width:350px; height:auto; border:none; font-family:arial, sans-serif; font-size:11px; font-style:normal; font-variant:normal;
+ text-align: center; text-decoration:none; color:#000000; padding:8px 0px 0px 5px;}
+ .footer3 a:hover{
+	width:350px; height:auto; border:none; font-family:arial, sans-serif; font-size:11px; font-style:normal; font-variant:normal;
+ text-align: center; text-decoration:none; color:#000000; padding:8px 0px 0px 5px;}	
+ 
+ 
+.flash{ width:640px; height:300px; margin:0px; z-index:1;}
+.job_and_tender{
+	width:auto;
+	height:auto;
+	margin:0px;
+	background-color:#e0e8e6;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-weight:500;
+	text-align:left;
+	text-decoration:none;
+	color:#006699;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+.job_and_tender a{ width:950px; height:auto; font-family:Arial, sans-serif; font-size:12px; font-style:normal; font-weight:500; text-align:left; text-decoration:none; color:#006699; padding:8px 20px 10px 30px;}
+.job_and_tender a:hover{ width:900px; height:auto; font-family:Arial, sans-serif; font-size:12px; font-style:normal; font-weight:500; text-align:left; text-decoration:none; color: #0A2E81; padding:8px 20px 10px 30px;}
+.job_and_tender1{
+	width:auto;
+	height:auto;
+	margin:0px;
+	font-family:Arial, sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-weight:800;
+	text-align:left;
+	text-decoration:none;
+	color: #0F0F13;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+.job_and_tender1 a{ width:auto; height:auto; font-family:Arial, sans-serif; font-size:16px; font-style:normal; font-weight:800; text-align:left; text-decoration:none; color: #0F0F13; padding:8px 20px 10px 40px;}
+.job_and_tender1 a:hover{ width:auto; height:auto; font-family:Arial, sans-serif; font-size:16px; font-style:normal; font-weight:800; text-align:left; text-decoration:none; color: #0A2E81; padding:8px 20px 10px 40px;}
+.time_text{ width:194px; font-family: Tahoma; font-size:9px; font-style:normal; text-decoration:none; color:#000000; padding:0px 2px 0px 2px; text-align:left; }
+.time_text a{ width:194px; font-family: Tahoma; font-size:9px; font-style:normal; text-decoration:none; color:#000000; text-align:left; padding:0px 10px 0px 12px; }
+
+.lower_btn1{ width:auto; height:auto; border:none; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; color: #ffffff;}
+.lower_btn1 a{ width:auto; height:auto; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; color: #00CCFF; font-weight:600; padding:0px 12px 0px 40px; border:none;}
+.lower_btn1 a:hover{ width:auto; height:auto; font-weight:600; font-family:arial, sans-serif; font-size:14px; font-style:normal; text-decoration:none; color: #000000; padding:0px 12px 0px 40px; border:none;}
+.ucds{ font-size:11px; color:#000099; font-weight:bold;}
+.dyneamic_text2{ width:600px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:normal; text-align:left;
+text-decoration:none; color:#666666; padding:1px 10px 0px 10px;}
+.dyneamic_text3{ width:100px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:normal; text-align:left;
+text-decoration:none; color:#666666; padding:1px 10px 0px 10px;}
+
+#about_us{ width:148px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color:#333333; padding:1px 0px 0px 4px;}
+
+#about_us1{ width:530px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color:#333333; padding:1px 0px 0px 4px;}
+
+.inner_page_text{
+	width:950px;
+	height:45px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:300;
+	text-shadow:#000033;
+	font-style:normal;
+	text-align:left;
+	text-decoration:none;
+	color:#FFFFFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	background-image: url(../images/short_header.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+
+.inner_page_text_library{width:550px; height:45px; font-family: Arial, sans-serif; font-size:18px; font-weight:500; text-shadow:#000033; font-style:normal; text-align:left; text-decoration:none; padding:8px 0px 0px 20px; color:#FFFFFF;}
+.inner_page_about_us_location{width:170px; height:20px; background:url(../images/main_link_page/location.png) no-repeat; font-family:arial, sans-serif; font-size:12px; font-style:normal; text-align:left; text-decoration:none; padding:0px 2px 0px 12px; color:#ffffff;}
+
+.inner_page_about_us_middle{width:520px; height:20px; background:url(../images/main_link_page/middle_about_us.png) no-repeat; font-family:arial, sans-serif; font-size:12px; font-style:normal; text-align:left; text-decoration:none; padding:0px 0px 0px 0px; color:#ffffff;}
+.inner_page_academics_middle{
+	width:730px;
+	height:20px;
+	font-family:arial, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-align:left;
+	text-decoration:none;
+	color:#ffffff;
+	padding: 2px 0px 0px 5px ;
+	line-height: 14px;
+	font-weight: 600;
+	font-variant: normal;
+	text-transform: none;
+	background-image: url(../images/main_link_page/academics_734_top.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	white-space: normal;
+	overflow: hidden;
+	visibility: visible;
+	z-index: auto;
+}
+.inner_page_view_background{width:210px; height:30px; background:url(../images/view_background.png) no-repeat; padding:0px 6px 0px 0px; }
+
+
+.inner_page_view{width:210px; height:30px; background:url(../images/view_top.png) no-repeat; font-family:arial, sans-serif; font-size:14px; font-style:normal; font-weight:700; text-align:left; text-decoration:none; padding:0px 0px 0px 0px; color:#ffffff;}
+
+.Discipline{ width:382px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color: #333333; padding:1px 0px 0px 20px;}
+
+.Discipline a{ width:350px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color: #333333; padding:1px 0px 0px 4px;}
+
+.Discipline a:hover{ width:350px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color: #006699; padding:1px 0px 0px 4px;}
+.side_border {
+	BORDER-RIGHT: #c4cde0 1px solid; PADDING-RIGHT: 4px;
+}
+.side_border_lft {
+	PADDING-LEFT: 4px;
+}
+
+.side_border_so1{ BORDER-RIGHT: #c4cde0 1px solid; PADDING-RIGHT: 8px; PADDING-LEFT: 8px;}
+.side_border_so2{ BORDER-RIGHT: #c4cde0 1px solid; PADDING-RIGHT: 8px;}
+.bottom_border {
+	PADDING-BOTTOM: 3px; BORDER-BOTTOM: #a10101 4px solid;
+}
+.bottom_border_blue {
+	PADDING-BOTTOM: 3px; BORDER-BOTTOM: #212121 4px solid;
+}
+#view{width:212px; height:auto; border:none; margin:0px;}
+.Discipline1{ width:231px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color: #333333; padding:1px 0px 0px 30px;}
+.Discipline2{
+	width:340px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-align:left;
+	text-decoration:none;
+	color: #333333;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+
+.inner_page_half{width:350px; height:20px; background:url(../images/main_link_page/half_of_734_350.png) no-repeat; font-family:arial, sans-serif; font-size:1em; font-style:normal; text-align:left; text-decoration:none; padding:0px 0px 0px 10px; color:#ffffff; }
+
+.inner_page_half a{width:200px; height:20px; background:url(../images/main_link_page/half_of_734_350.png) no-repeat; font-family:arial, sans-serif; font-size:1em; font-style:normal; text-align:left; text-decoration:none; padding:0px 0px 0px 10px; color:#ffffff; }
+
+.innerpage_734{ width:734px; height:auto; border:none; margin:0px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left; text-decoration:none; padding:0px 0px 0px 10px}
+
+.innerpage_734 a{ width:700px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color:#333333; padding:1px 0px 0px 0px;}
+
+.innerpage_734 a:hover{ width:700px; font-family: Arial, Helvetica, sans-serif; font-size:1em; font-style:normal; text-align:left;
+text-decoration:none; color:#333333; padding:1px 0px 0px 0px;}
+.sideviewpannel{width:212px; height:auto; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:normal; color: #042062; text-align:left; text-decoration:none; padding:0px 0px 0px 10px;}
+.dipt_sideviewpannel{width:auto; height:auto; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:normal; text-align:left; text-decoration:none; padding:0px 0px 0px 0px;}
+.dipt_sideviewpannel a{width:auto; height:auto; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:normal; color: #046FA2; text-align:left; text-decoration:none; padding:0px 0px 0px 10px;}
+.dipt_sideviewpannel a:hover{width:auto; height:auto; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:normal; color: #000000; text-align:left; text-decoration:none; padding:0px 0px 0px 10px;}
+
+.dipt_titile{ width: 212px; font-family: Arial, sans-serif; font-size: 12px; padding-bottom: 10px; margin-left:10px; padding-top:10px; padding-right:0px; padding-left:10px; text-transform:uppercase; color: #15436e; font-weight:bold;}
+
+.dipertment{ width:600px; height:20px;font-family:Arial, sans-serif; font-size:14px; color:#346498; padding:5px 0px 0px 20px;}
+.dipertment a{ width:550px; height:17px; font-family:Arial, sans-serif; font-size:14px; color:#346498; text-align:left; text-decoration:none; font-style:normal; font-weight:500; line-height:1em; letter-spacing: inherit; padding:5px 0px 0px 20px;}
+.dipertment a:hover{ width:780px; height:17px;  font-family:Arial, sans-serif; font-size:14px; letter-spacing: inherit; color: #ffffff; text-align:left; text-decoration:none; font-style:normal; font-weight:500; padding:5px 0px 0px 20px;}
+
+.dipartment{ height:20px;font-family:Arial, sans-serif; font-size:11px; color:#346498; padding:5px 0px 0px 0px;}
+.dipartment a{ height:17px; font-family:Arial, sans-serif; font-size:11px; color:#346498; text-align:left; text-decoration:none; font-style:normal; font-weight:500; line-height:1em; letter-spacing: inherit; padding:5px 0px 0px 5px;}
+.dipartment a:hover{ height:17px;  font-family:Arial, sans-serif; font-size:11px; letter-spacing: inherit; color: #ffffff; text-align:left; text-decoration:none; font-style:normal; font-weight:500; padding:5px 0px 0px 5px;}
+
+.only_for_facilities_page1{ width:350px; height:auto; background:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:justify; font-style:normal; color: #666666;}
+.only_for_facilities_page1 a{ width:350px; height:auto; background:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #666666; text-align:justify; font-style:normal; text-decoration:none; font-weight:300;}
+only_for_facilities_page1 a:hover{ width:350px; height:auto; background:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #0099FF; text-align:justify; font-style:normal; text-decoration:none; font-weight:300;}
+.only_for_facilities_page{ width: auto; height:auto; background:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:justify; font-style:normal; color: #666666;}
+.only_for_facilities_page a{ width: auto; height:auto; background:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #666666; text-align:justify; font-style:normal; text-decoration:none; font-weight:300;}
+.only_for_facilities_page a:hover{ width: auto; height:auto; background:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #000066; text-align:justify; font-style:normal; text-decoration:none; font-weight:300;}
+
+.library_quick_links{width:width=211px; height:auto; background-color:#dddddd; font-family:Arial, sans-serif; font-size:14px; text-align:left; text-decoration:none; font-style:normal; color:#000000;}
+.library_quick_links a{width:width=211px; height:auto; background-color:#dddddd; font-family:Arial, sans-serif; font-size:14px; text-align:left; text-decoration:none; font-style:normal; color:#000000; padding:3px 0px 3px 20px}
+.ibrary_quick_links a:hover{width:width=211px; height:auto; background-color:#dddddd; font-family:Arial, sans-serif; font-size:14px; text-align:left; text-decoration:none; font-style:normal; color:#ffffff; padding:3px 0px 3px 20px}
+.events {
+background:url(../images/Events-and-Visitors-background.jpg) no-repeat; border:none;}

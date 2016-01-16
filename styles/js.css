@@ -1,0 +1,12 @@
+/* Styles used by JavaScript */
+
+body.larger-text { font-size: 81.25%; }
+#home-accordion h2.current span { background-position: bottom left; }
+#home-accordion .events .opened ul { overflow: auto; }
+#home-accordion .news .opened .content { overflow: auto; }
+#home-accordion .news .opened ul { overflow: auto; }
+#audience-nav a:hover span, #audience-nav a.current span { background-position: left bottom; }
+.expandable-box .expanded-box { height: auto !important; }
+.expandable-box .tab a.expanded span { background-position: 0 -12px; }
+#nav li.hover .flyout { left: auto; }
+.sortable-box-closed ul, .sortable-box-closed p, .sortable-box-closed .customize-box .add { display: none !important; }
